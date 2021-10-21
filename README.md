@@ -1,2 +1,5 @@
-# u02-redesign-chasgrupp5
-u02-redesign-chasgrupp5 created by GitHub Classroom
+# Project description
+
+A redesign of https://www.konstnarsnamnden.se/
+
+Chas group 5
