@@ -5,13 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Konstnärsnämnden</title>
-
   <link rel="icon" href="/favicon.ico">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css">
-
+  <script src="https://use.fontawesome.com/ce0701f7ee.js"></script>
 </head>
 
 <body>
@@ -41,11 +40,13 @@
       </nav>
       <div class="nav-button">
         <a href=""><button>Logga in</button></a>
-        <a href=""><button>Ansökan om stipendium</button></a>
+        <a href=""><button>Ansöka om stipendium</button></a>
       </div>
-      <div class="search-bar">
-        <input type="text" placeholder="Sök">
-      </div> 
+      <form class="search-bar" action="" method="">
+        <label for="site-search" class="visually-hidden">Sök:</label>
+        <input type="search" id="site-search" name="site-search" placeholder="Sök">
+        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+      </form> 
     </div>
   </header>
 
