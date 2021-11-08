@@ -1,4 +1,5 @@
 // Centrering
+
 @mixin display-flex-center {
     display: flex;
     justify-content: center;
@@ -17,23 +18,35 @@
 
     
 }
+
+// Mixin länkar
+
 @mixin navigation-links {
     text-decoration: none;
     a {
-        color: $second-color;
+        color: $primary-color;
     }
     &:hover {
-        color: $primary-color;   
+        color: $third-color;   
       }
     &:visited {
-        color: $forth-color;  
+        color: $second-color;  
       }
     &:active {
-        color: $third-color;  
+        color: $forth-color;  
       }
 }
 
-// Mixin länkar
+// Mixin button
+
+@mixin button {
+    background-color: $forth-color;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 25px;
+    box-shadow: 0 8px 6px -5px $forth-color;
+}
 
 // Mixin subtitle 
 

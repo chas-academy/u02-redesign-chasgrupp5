@@ -30,7 +30,7 @@ p, a {
 }
 
 header {
-  background-color: cornflowerblue;
+  background-color: antiquewhite;
 }
 
 .header-wrapper {
@@ -59,6 +59,16 @@ header {
   display: inline-block;
 }
 
+.nav-button {
+  background-color: #778DA9;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 25px;
+  -webkit-box-shadow: 0 8px 6px -5px #778DA9;
+          box-shadow: 0 8px 6px -5px #778DA9;
+}
+
 .visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -75,19 +85,23 @@ header {
 }
 
 .header-container a a {
-  color: #1B263B;
-}
-
-.header-container a:hover {
   color: #0D1B2A;
 }
 
+.header-container a:hover {
+  color: #415A77;
+}
+
 .header-container a:visited {
-  color: #778DA9;
+  color: #1B263B;
 }
 
 .header-container a:active {
-  color: #415A77;
+  color: #778DA9;
+}
+
+footer {
+  background-color: darkgray;
 }
 
 .main {
@@ -141,5 +155,4 @@ header {
   width: 360px;
   height: 330px;
 }
-
 /*# sourceMappingURL=main.css.map */
