@@ -1,19 +1,19 @@
 {
     "version": 3,
-    "mappings": "AGAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;CACd;;ACRD,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,SAAS;CACzB;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,OAAO;CACrB;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,CAAC,EAAE,CAAC,CAAC;EACD,SAAS,EAAE,IAAI;CAClB;;AGjBD,AAAA,MAAM,CAAC;EACL,gBAAgB,EAAE,cAAc;CACjC;;AAED,AAAA,gBAAgB,CAAC;EACb,MAAM,EAAE,CAAC;EACT,IAAI,EAAE,aAAa;EACnB,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,IAAI;EACZ,QAAQ,EAAE,MAAM;EAChB,OAAO,EAAE,CAAC;EACV,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;CACX;;ACbH,AAAA,MAAM,CAAC;EACH,gBAAgB,EAAE,QAAQ;CAC7B",
+    "mappings": "AGAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;CACd;;ACRD,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,SAAS;CACzB;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,OAAO;CACrB;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,CAAC,EAAE,CAAC,CAAC;EACD,SAAS,EAAE,IAAI;CAClB;;AGjBD,AAAA,MAAM,CAAC;EACL,gBAAgB,EAAE,cAAc;CACjC;;AAED,AAAA,eAAe,CAAC;EACd,OAAO,EAAE,IAAI;EACb,IAAI,EAAE,CAAC;EACP,eAAe,EAAE,aAAa;CAC/B;;AAED,AAAA,iBAAiB,CAAC;ELEd,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CKDzB;;AAED,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,YAAY;CACtB;;AAED,AAAA,gBAAgB,CAAC;EACb,MAAM,EAAE,CAAC;EACT,IAAI,EAAE,aAAa;EACnB,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,IAAI;EACZ,QAAQ,EAAE,MAAM;EAChB,OAAO,EAAE,CAAC;EACV,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;CACX;;AC3BH,AAAA,MAAM,CAAC;EACH,gBAAgB,EAAE,QAAQ;CAC7B",
     "sources": [
-        "main.scss",
-        "abstracts/_variables.scss",
-        "abstracts/_mixins.scss",
-        "base/_reset.scss",
-        "base/_typography.scss",
-        "layout/_navigation.scss",
-        "layout/_grid.scss",
-        "layout/_header.scss",
-        "layout/_footer.scss",
-        "layout/_sidebar.scss",
-        "layout/_forms.scss",
-        "components/_buttons.scss"
+        "scss/main.scss",
+        "scss/abstracts/_variables.scss",
+        "scss/abstracts/_mixins.scss",
+        "scss/base/_reset.scss",
+        "scss/base/_typography.scss",
+        "scss/layout/_navigation.scss",
+        "scss/layout/_grid.scss",
+        "scss/layout/_header.scss",
+        "scss/layout/_footer.scss",
+        "scss/layout/_sidebar.scss",
+        "scss/layout/_forms.scss",
+        "scss/components/_buttons.scss"
     ],
     "names": [],
     "file": "main.css"
