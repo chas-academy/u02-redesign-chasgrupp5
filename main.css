@@ -70,23 +70,23 @@ header {
   width: 1px;
 }
 
-a {
+.header-container a {
   text-decoration: none;
 }
 
-a a {
+.header-container a a {
   color: #000;
 }
 
-a:hover {
+.header-container a:hover {
   color: #415A77;
 }
 
-a:visited {
+.header-container a:visited {
   color: #415A77;
 }
 
-a:active {
+.header-container a:active {
   color: #fff;
 }
 

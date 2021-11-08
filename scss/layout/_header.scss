@@ -28,7 +28,8 @@ header {
     width: 1px;
   }
 
-a {
-  @include links-nav;
+.header-container {
+  a {
+  @include navigation-links;
 }
-
+}

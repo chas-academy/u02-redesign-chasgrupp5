@@ -15,7 +15,7 @@
     flex-direction: column;
     
 }
-@mixin links-nav {
+@mixin navigation-links {
     text-decoration: none;
     a {
         color: $second-color;
