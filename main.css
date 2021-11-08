@@ -75,23 +75,19 @@ header {
 }
 
 .header-container a a {
-  color: #000;
+  color: #1B263B;
 }
 
 .header-container a:hover {
-  color: #415A77;
+  color: #0D1B2A;
 }
 
 .header-container a:visited {
-  color: #415A77;
+  color: #778DA9;
 }
 
 .header-container a:active {
-  color: #fff;
-}
-
-footer {
-  background-color: darkgray;
+  color: #415A77;
 }
 
 .main {
@@ -145,4 +141,5 @@ footer {
   width: 360px;
   height: 330px;
 }
+
 /*# sourceMappingURL=main.css.map */
