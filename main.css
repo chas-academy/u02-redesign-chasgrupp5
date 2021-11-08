@@ -17,8 +17,6 @@ img {
 
   font-family: 'Poppins';
 
-  font-family: "Poppins";
-
 }
 
 h1 {
@@ -38,15 +36,6 @@ p, a {
   font-size: 18px;
 
   font-size: 1.62rem;
-}
-
-h3 {
-  font-size: 1.25rem;
-}
-
-p, a {
-  font-size: 1.12rem;
-
 }
 
 header {
@@ -116,9 +105,6 @@ footer {
   background-color: darkgray;
 }
 
-footer {
-  background-color: darkgray;
-}
 
 .main {
   display: flex;
