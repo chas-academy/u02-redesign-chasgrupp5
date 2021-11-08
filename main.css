@@ -90,10 +90,6 @@ header {
   color: #415A77;
 }
 
-footer {
-  background-color: darkgray;
-}
-
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -146,7 +142,4 @@ footer {
   height: 330px;
 }
 
-.nav-button {
-  background-color: #778DA9;
-}
 /*# sourceMappingURL=main.css.map */
