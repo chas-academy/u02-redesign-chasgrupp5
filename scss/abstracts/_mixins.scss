@@ -15,3 +15,18 @@
     flex-direction: column;
     
 }
+@mixin links-nav {
+    text-decoration: none;
+    a {
+        color: $second-color;
+    }
+    &:hover {
+        color: $primary-color;   
+      }
+    &:visited {
+        color: $forth-color;  
+      }
+    &:active {
+        color: $third-color;  
+      }
+}

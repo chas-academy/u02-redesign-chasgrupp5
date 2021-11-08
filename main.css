@@ -70,6 +70,26 @@ header {
   width: 1px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a a {
+  color: #000;
+}
+
+a:hover {
+  color: #415A77;
+}
+
+a:visited {
+  color: #415A77;
+}
+
+a:active {
+  color: #fff;
+}
+
 footer {
   background-color: darkgray;
 }
