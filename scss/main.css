@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+img {
+  width: 100%;
+}
+
 * {
   font-family: 'Poppins';
 }
@@ -25,6 +29,10 @@ p, a {
   font-size: 18px;
 }
 
+header {
+  background-color: cornflowerblue;
+}
+
 .visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -34,5 +42,9 @@ p, a {
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+footer {
+  background-color: darkgray;
 }
 /*# sourceMappingURL=main.css.map */
