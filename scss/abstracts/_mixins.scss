@@ -1,3 +1,4 @@
+// Centrering
 @mixin display-flex-center {
     display: flex;
     justify-content: center;
@@ -13,5 +14,8 @@
 @mixin display-flex-column {
     display: flex;
     flex-direction: column;
-    
 }
+
+// Mixin länkar
+// Mixin subtitle 
+// Mixin textfield
