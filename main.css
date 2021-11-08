@@ -47,8 +47,14 @@ footer {
   background-color: darkgray;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
 .img-inner {
   background: url(Img/main-main-bild.jpg);
+  height: 800px;
   background-position: center;
   position: relative;
 }/*# sourceMappingURL=main.css.map */
