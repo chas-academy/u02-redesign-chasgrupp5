@@ -14,6 +14,25 @@
 @mixin display-flex-column {
     display: flex;
     flex-direction: column;
+
+    
+}
+@mixin navigation-links {
+    text-decoration: none;
+    a {
+        color: $second-color;
+    }
+    &:hover {
+        color: $primary-color;   
+      }
+    &:visited {
+        color: $forth-color;  
+      }
+    &:active {
+        color: $third-color;  
+      }
+}
+
 }
 
 // Mixin länkar
@@ -21,3 +40,4 @@
 // Mixin subtitle 
 
 // Mixin textfield
+

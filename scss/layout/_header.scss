@@ -3,6 +3,20 @@ header {
   background-color: cornflowerblue;
 }
 
+.header-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.header-container {
+  @include display-flex-column;
+}
+
+.nav-link {
+  display: inline-block;
+}
+
 .visually-hidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -14,3 +28,8 @@ header {
     width: 1px;
   }
 
+.header-container {
+  a {
+  @include navigation-links;
+}
+}
