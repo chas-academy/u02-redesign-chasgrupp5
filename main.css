@@ -47,9 +47,14 @@ footer {
   background-color: darkgray;
 }
 
-main {
+.main {
   display: flex;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.main--inner {
+  width: 90%;
 }
 
 .img-inner {
@@ -57,4 +62,20 @@ main {
   height: 800px;
   background-position: center;
   position: relative;
+}
+.img-inner h2, .img-inner p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 110px;
+}
+.imgcontainer img {
+  width: 360px;
+  height: 330px;
 }/*# sourceMappingURL=main.css.map */
