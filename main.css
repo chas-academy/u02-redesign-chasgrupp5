@@ -1,5 +1,4 @@
 * {
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,15 +17,15 @@ h1 {
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 1.62rem;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 p, a {
-  font-size: 18px;
+  font-size: 1.12rem;
 }
 
 header {
@@ -58,4 +57,4 @@ main {
   height: 800px;
   background-position: center;
   position: relative;
-}
+}/*# sourceMappingURL=main.css.map */
