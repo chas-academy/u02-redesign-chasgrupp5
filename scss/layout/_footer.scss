@@ -4,24 +4,28 @@ footer {
     bottom: 0;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,27,42,1) 0%, rgba(65,90,119,1) 79%);
     color: #eef8ff;
-    padding: 100px 0 30px;
+    padding: 50px 0 30px;
     font-size: 13px;
     line-height: 20px;
     box-sizing: border-box;
+    font-family: 'poppins';
 
 }
 
 
 ul li{
     list-style: none;
+    margin-bottom: 12px;
 }
 
 ul li a{
     text-decoration: none;
+    color: rgb(255, 255, 255);
+
 }
 
 .row-f {
-    width: 85%;
+    width: 70%;
     margin: auto;
     display: flex;
     flex: wrap;
@@ -33,15 +37,18 @@ ul li a{
 .col-f {
     flex-basis: 25%;
     padding: 10px;
+    justify-content: space-between;
+    z-index: 1;
+    
 }
 
 
 .col-f .line {
-    border-left: 2px solid #415A77;
-    height: 100px;
+    border-left: 1px solid #415A77;
+    height: 200px;
     position: relative;
-    left: 5%;
+    left: 50%;
+   
 
-    
-        
 }
+
