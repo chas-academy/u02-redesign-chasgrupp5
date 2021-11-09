@@ -1,4 +1,47 @@
 // Tillfällig bakgrund
 footer {
-    background-color: darkgray;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,27,42,1) 0%, rgba(65,90,119,1) 79%);
+    color: #eef8ff;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+    box-sizing: border-box;
+
+}
+
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.row-f {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.col-f {
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+
+.col-f .line {
+    border-left: 2px solid #415A77;
+    height: 100px;
+    position: relative;
+    left: 5%;
+
+    
+        
 }
