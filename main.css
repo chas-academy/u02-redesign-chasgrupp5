@@ -101,29 +101,8 @@ header {
   display: inline-block;
 }
 
-/* form {
-  width: 300px;
-  height: 44px;
-  border: 1px solid #C4C4C4;
-  @include display-flex-center;
-
-}
-
-form button {
-  all: unset;
-  cursor: pointer;
-  width: 44px;
-  height: 44px;
-}
-
-input {
-  all: unset;
-  height: 100%;
-  width: 100%;
-  padding: 5 10px; 
-} */
 form {
-  width: 300px;
+  width: 350px;
   height: 44px;
   border: 1px solid #E0E1DD;
   display: -webkit-box;
@@ -164,8 +143,8 @@ input {
 form button {
   all: unset;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
+  width: 44px;
+  height: 44px;
   color: #415A77;
 }
 
