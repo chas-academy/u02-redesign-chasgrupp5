@@ -1,4 +1,73 @@
-// Tillfällig bakgrund
 footer {
-    background-color: darkgray;
+    position: relative;
+    bottom: 0;
+    background-color: $third-color;
+    padding: 30px 0 30px;
+    font-size: 13px;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    display: flex;
+
+}
+
+
+.row-f ul li{
+    list-style: none;
+    margin-bottom: 12px;
+    width: 120%;
+    
+}
+
+.row-f a{
+    text-decoration: none;
+    color: $primary-color;
+
+}
+
+.row-f {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.col-f {
+    flex-basis: 25%;
+    padding: 10px;
+    justify-content: space-between;
+    z-index: 1;
+    margin-bottom: 12px;
+
+        
+}
+
+
+.col-f .line {
+    border-left: 1px solid black;
+    height: 200px;
+    position: relative;
+    left: 50%;
+    
+   
+}
+
+
+@media (max-width: 767px) {
+    .row-f {
+        @include display-flex-column;
+        color: $fifth-color;
+        
+    }
+
+    .row-f ul li a {
+        color: $fifth-color;
+
+    }
+    
+    .col-f .line {
+        display: none;
+    }
 }

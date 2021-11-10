@@ -1,4 +1,5 @@
 // Centrering
+
 @mixin display-flex-center {
     display: flex;
     justify-content: center;
@@ -14,10 +15,40 @@
 @mixin display-flex-column {
     display: flex;
     flex-direction: column;
+
+    
 }
 
 // Mixin länkar
 
+@mixin navigation-links {
+    text-decoration: none;
+    a {
+        color: $primary-color;
+    }
+    &:hover {
+        color: $third-color;   
+      }
+    &:visited {
+        color: $second-color;  
+      }
+    &:active {
+        color: $forth-color;  
+      }
+}
+
+// Mixin button
+
+@mixin button {
+    background-color: $forth-color;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 25px;
+    box-shadow: 0 8px 6px -5px $forth-color;
+}
+
 // Mixin subtitle 
 
 // Mixin textfield
+
