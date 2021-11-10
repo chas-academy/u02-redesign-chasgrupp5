@@ -1,28 +1,26 @@
-// Tillfällig bakgrund
 footer {
     position: relative;
     bottom: 0;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,27,42,1) 0%, rgba(65,90,119,1) 79%);
-    color: #eef8ff;
-    padding: 50px 0 30px;
+    background-color: $third-color;
+    padding: 30px 0 30px;
     font-size: 13px;
-    line-height: 20px;
     box-sizing: border-box;
     font-family: 'poppins';
+    display: flex;
 
 }
 
 
-ul li{
+.row-f ul li{
     list-style: none;
     margin-bottom: 12px;
     width: 120%;
+    
 }
 
-ul li a{
+.row-f a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    
+    color: $primary-color;
 
 }
 
@@ -42,16 +40,34 @@ ul li a{
     justify-content: space-between;
     z-index: 1;
     margin-bottom: 12px;
-    
-    
+
+        
 }
 
 
 .col-f .line {
-    border-left: 1px solid #415A77;
+    border-left: 1px solid black;
     height: 200px;
     position: relative;
     left: 50%;
+    
    
+}
 
+
+@media (max-width: 767px) {
+    .row-f {
+        @include display-flex-column;
+        color: $fifth-color;
+        
+    }
+
+    .row-f ul li a {
+        color: $fifth-color;
+
+    }
+    
+    .col-f .line {
+        display: none;
+    }
 }

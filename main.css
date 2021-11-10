@@ -114,26 +114,26 @@ header {
 footer {
   position: relative;
   bottom: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #0d1b2a), color-stop(79%, #415a77));
-  background: linear-gradient(90deg, #020024 0%, #0d1b2a 0%, #415a77 79%);
-  color: #eef8ff;
-  padding: 50px 0 30px;
+  background-color: #415A77;
+  padding: 30px 0 30px;
   font-size: 13px;
-  line-height: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'poppins';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-ul li {
+.row-f ul li {
   list-style: none;
   margin-bottom: 12px;
   width: 120%;
 }
 
-ul li a {
+.row-f a {
   text-decoration: none;
-  color: white;
+  color: #0D1B2A;
 }
 
 .row-f {
@@ -165,10 +165,29 @@ ul li a {
 }
 
 .col-f .line {
-  border-left: 1px solid #415A77;
+  border-left: 1px solid black;
   height: 200px;
   position: relative;
   left: 50%;
+}
+
+@media (max-width: 767px) {
+  .row-f {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #E0E1DD;
+  }
+  .row-f ul li a {
+    color: #E0E1DD;
+  }
+  .col-f .line {
+    display: none;
+  }
 }
 
 .main {
