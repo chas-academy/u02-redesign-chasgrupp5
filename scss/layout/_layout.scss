@@ -1,32 +1,33 @@
 // Main section
 
 .main {
-    @include display-flex-center;
+  @include display-flex-center;
 
-    &-inner {
-        width: 80%;
-    }
+  &-inner {
+    width: 80%;
+  }
 }
 
-.img-section {
-    background: url(Img/main-main-bild.jpg);
-    height: 572px;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    margin-bottom: 182px;
-    margin-top: 126px;
+.aside-img {
+  background: url(Img/main-main-bild.jpg);
+  height: 572px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 182px;
+  margin-top: 126px;
+  width: 100vh;
 }
 
 .imgcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 40px;
-    row-gap: 110px;
-    margin-bottom: 214px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 110px;
+  margin-bottom: 214px;
 
-    figcaption {
-        margin-top: 15px;
-        text-align: center;
-    }
+  figcaption {
+    margin-top: 15px;
+    text-align: center;
+  }
 }
