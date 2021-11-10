@@ -50,23 +50,20 @@ footer {
 .main {
   display: flex;
   justify-content: center;
-  display: flex;
-  flex-direction: column;
 }
-.main--inner {
-  width: 90%;
+.main-inner {
+  width: 80%;
 }
 
-.img-inner {
+.img-section {
   background: url(Img/main-main-bild.jpg);
-  height: 800px;
+  height: 572px;
+  width: 100%;
   background-position: center;
+  background-size: cover;
   position: relative;
-}
-.img-inner h2, .img-inner p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 182px;
+  margin-top: 126px;
 }
 
 .imgcontainer {
@@ -74,8 +71,9 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 40px;
   row-gap: 110px;
+  margin-bottom: 214px;
 }
-.imgcontainer img {
-  width: 360px;
-  height: 330px;
+.imgcontainer figcaption {
+  margin-top: 15px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
