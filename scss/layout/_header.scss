@@ -1,5 +1,5 @@
 header {
-  background-color: antiquewhite;
+  /*background-color: antiquewhite;*/
   padding: 30px;
 }
 
@@ -8,7 +8,7 @@ header {
   flex: 1;
   justify-content: space-between;
   margin: 30px;
-  background-color: aliceblue;
+  /*background-color: aliceblue;*/
 }
 
 .header-container {
@@ -34,6 +34,56 @@ header {
 
 .nav-link {
   display: inline-block;
+}
+
+/* form {
+  width: 300px;
+  height: 44px;
+  border: 1px solid #C4C4C4;
+  @include display-flex-center;
+
+}
+
+form button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+input {
+  all: unset;
+  height: 100%;
+  width: 100%;
+  padding: 5 10px; 
+} */
+
+form {
+  width: 300px;
+  height: 44px;
+  border: 1px solid $fifth-color;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  all: unset;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+::placeholder {
+  color: $third-color;
+  opacity: 0.7; 
+}
+
+form button {
+  all: unset;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  color: $third-color;
 }
 
 .visually-hidden {
