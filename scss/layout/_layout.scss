@@ -1,14 +1,21 @@
 // Main section
 
-.main {
+.container {
   @include display-flex-center;
 
-  &-inner {
-    width: 80%;
+  .wrapper {
+    width: 100%;
+    max-width: 1200px;
+
   }
 }
 
-.aside-img {
+.text-section-2 {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.img-section {
   background: url(Img/main-main-bild.jpg);
   height: 572px;
   background-position: center;
@@ -16,7 +23,14 @@
   position: relative;
   margin-bottom: 182px;
   margin-top: 126px;
-  width: 100vh;
+  display: flex;
+  align-items: center;
+
+  &--inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .imgcontainer {

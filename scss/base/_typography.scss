@@ -8,6 +8,7 @@ h1 {
 
 h2 {
     font-size: 1.62rem;
+    font-weight: 300;
 }
 
 h3 {
@@ -16,4 +17,16 @@ h3 {
 
 p, a {
     font-size: 1.12rem;
+}
+
+.img-title {
+    font-size: 2.25rem;
+    font-weight: 300;
+    color: $third-color;
+}
+
+.img-subtitle {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: $third-color;
 }
