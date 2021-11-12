@@ -13,11 +13,12 @@
         list-style: none;
         margin-bottom: 10px;
         width: 100%;
-        color: $primary-color;
+        color: $fifth-color;
         font-size: 18px;
+       
         a{
             text-decoration: none;
-            color: $primary-color;
+            color: $fifth-color;
 
         }
     }
@@ -33,7 +34,7 @@
 
 
     .col-f .line {
-        border-left: 1px solid rgb(199, 197, 197);
+        border-left: 1px solid rgb(0, 0, 0);
         height: 200px;
         position: relative;
         left: 100%;
@@ -47,6 +48,7 @@
         font-size: 10px;
         display: flex;
         justify-content: center;
+        color: $fifth-color;
         
     }
 
