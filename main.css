@@ -122,6 +122,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: "poppins";
 }
 
 .footer-container .row-f ul li {
