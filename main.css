@@ -15,6 +15,7 @@ img {
 
 h1 {
   font-size: 2.25rem;
+  font-weight: 300;
 }
 
 h2 {
@@ -30,6 +31,12 @@ p, a {
   font-size: 1.12rem;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
 .img-title {
   font-size: 2.25rem;
   font-weight: 300;
@@ -40,6 +47,30 @@ p, a {
   font-size: 1.25rem;
   font-weight: 300;
   color: #415A77;
+}
+
+.title {
+  margin-bottom: 25px;
+}
+
+.subtitle {
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.text-field {
+  margin-top: 15px;
+}
+.text-field ul {
+  margin-right: 20px;
+}
+
+.calendar-heading {
+  margin-bottom: 15px;
+}
+
+.col-2 > h2 {
+  margin-bottom: 15px;
 }
 
 .aside-navbar {
@@ -54,6 +85,12 @@ p, a {
 
 .aside-navbar li {
   margin-bottom: 16px;
+}
+
+aside {
+  width: 90%;
+  border-right: 1px #415A77 solid;
+  margin-right: 100px;
 }
 
 header {
@@ -320,7 +357,7 @@ form button {
   -webkit-column-gap: 40px;
           column-gap: 40px;
   row-gap: 110px;
-  margin-bottom: 214px;
+  margin-bottom: 200px;
 }
 
 .imgcontainer figcaption {
@@ -328,12 +365,48 @@ form button {
   text-align: center;
 }
 
+.cols {
+  display: flex;
+}
+
+.col-2 {
+  margin-bottom: 200px;
+}
+.col-2 .line {
+  border: 1px #415A77 solid;
+  width: 100%;
+  margin: 75px 0;
+}
+.col-2 .textfield-ul {
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
 .sides {
   margin-bottom: 89px;
 }
 
+<<<<<<< Updated upstream
 .line-aside {
   border-left: 1px #415A77 solid;
   height: 702px;
 }
 /*# sourceMappingURL=main.css.map */
+=======
+.box img {
+  margin-bottom: 70px;
+}
+
+.box-figure > img {
+  margin-bottom: 0px;
+}
+
+.box-figure-2 > img {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.calender-img {
+  margin-bottom: 40px;
+}/*# sourceMappingURL=main.css.map */
+>>>>>>> Stashed changes

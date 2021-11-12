@@ -1,8 +1,29 @@
+.cols {
+    display: flex;
+}
+
+.col-2 {
+    margin-bottom: 200px;
+
+    .line {
+        border: 1px $third-color solid;
+        width: 100%;
+        margin: 75px 0;
+    }
+
+   .textfield-ul {
+       margin-left: 50px;
+       margin-top: 15px;
+   }
+}
+
 .sides {
     margin-bottom: 89px;
 }
 
-.line-aside {
-    border-left: 1px #415A77 solid;
-    height: 702px;
-}
+.box img {
+    margin-bottom: 70px;
+} 
+
+
+

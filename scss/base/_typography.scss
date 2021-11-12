@@ -4,6 +4,7 @@
 
 h1 {
     font-size: 2.25rem;
+    font-weight: 300;
 }
 
 h2 {
@@ -19,6 +20,12 @@ p, a {
     font-size: 1.12rem;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
 .img-title {
     font-size: 2.25rem;
     font-weight: 300;
@@ -29,4 +36,30 @@ p, a {
     font-size: 1.25rem;
     font-weight: 300;
     color: $third-color;
+}
+
+// Undersidorna 
+
+.title {
+    margin-bottom: 25px;
+}
+
+.subtitle {
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.text-field {
+    margin-top: 15px;
+
+    ul {
+        margin-right: 20px;
+    }
+}
+
+
+// Kalendarium undersida
+
+.calendar-heading {
+    margin-bottom: 15px;
 }
