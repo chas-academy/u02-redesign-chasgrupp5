@@ -41,6 +41,7 @@
 
 @mixin button {
     background-color: $forth-color;
+    cursor: pointer;
     color: white;
     border: none;
     border-radius: 10px;
