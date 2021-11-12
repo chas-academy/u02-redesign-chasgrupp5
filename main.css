@@ -142,65 +142,83 @@ form button {
   width: 1px;
 }
 
-footer {
-  position: relative;
-  bottom: 0;
+.footer-container {
   background-color: #415A77;
-  padding: 30px 0 30px;
-  font-size: 13px;
-  box-sizing: border-box;
-  font-family: "poppins";
+
+.footer-container {
+  background-color: #415A77;
+  padding: 30px 0 0px;
+}
+
+.footer-container .row-f {
+  width: 95%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  font-family: "poppins";
 }
 
-.row-f ul li {
+.footer-container .row-f ul li {
   list-style: none;
-  margin-bottom: 12px;
-  width: 120%;
+  margin-bottom: 10px;
+  width: 100%;
+  color: #0D1B2A;
+  font-size: 18px;
 }
 
-.row-f a {
+.footer-container .row-f ul li a {
   text-decoration: none;
   color: #0D1B2A;
 }
 
-.row-f {
-  width: 75%;
-  margin: auto;
-  display: flex;
-  flex: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
-.col-f {
-  flex-basis: 25%;
+.footer-container .row-f .col-f {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
   padding: 10px;
-  justify-content: space-between;
   z-index: 1;
   margin-bottom: 12px;
 }
 
-.col-f .line {
-  border-left: 1px solid black;
+.footer-container .row-f .col-f .line {
+  border-left: 1px solid #c7c5c5;
   height: 200px;
   position: relative;
-  left: 50%;
+  left: 100%;
+}
+
+.footer-container .copyright {
+  margin: auto;
+  font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 767px) {
   .row-f {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    color: #E0E1DD;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-
-  .row-f ul li a {
-    color: #E0E1DD;
-  }
-
-  .col-f .line {
+  .row-f .col-f .line {
     display: none;
+  }
+  .row-f .col-f ul li {
+    color: #E0E1DD;
+  }
+  .row-f .col-f ul li a {
+    color: #E0E1DD;
+  }
+  .copyright {
+    color: #E0E1DD;
   }
 }
 .container {

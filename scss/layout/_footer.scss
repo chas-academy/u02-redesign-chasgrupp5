@@ -1,73 +1,84 @@
-footer {
-    position: relative;
-    bottom: 0;
+.footer-container {
     background-color: $third-color;
-    padding: 30px 0 30px;
-    font-size: 13px;
-    box-sizing: border-box;
-    font-family: 'poppins';
-    display: flex;
+    padding: 30px 0 0px;
 
-}
-
-
-.row-f ul li{
-    list-style: none;
-    margin-bottom: 12px;
-    width: 120%;
-    
-}
-
-.row-f a{
-    text-decoration: none;
-    color: $primary-color;
-
-}
 
 .row-f {
-    width: 75%;
+    width: 95%;
     margin: auto;
     display: flex;
-    flex: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-}
+    font-family: "poppins";
+
+    ul li {
+        list-style: none;
+        margin-bottom: 10px;
+        width: 100%;
+        color: $primary-color;
+        font-size: 18px;
+        a{
+            text-decoration: none;
+            color: $primary-color;
+
+        }
+    }
 
 
-.col-f {
-    flex-basis: 25%;
-    padding: 10px;
-    justify-content: space-between;
-    z-index: 1;
-    margin-bottom: 12px;
-
-        
-}
+    .col-f {
+        flex-basis: 25%;
+        padding: 10px;
+        z-index: 1;
+        margin-bottom: 12px;
+    
+    }
 
 
-.col-f .line {
-    border-left: 1px solid black;
-    height: 200px;
-    position: relative;
-    left: 50%;
+    .col-f .line {
+        border-left: 1px solid rgb(199, 197, 197);
+        height: 200px;
+        position: relative;
+        left: 100%;
     
    
+    }
 }
 
-
-@media (max-width: 767px) {
-    .row-f {
-        @include display-flex-column;
-        color: $fifth-color;
+    .copyright {
+        margin: auto;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
         
     }
 
-    .row-f ul li a {
-        color: $fifth-color;
 
-    }
+}
+
+@media (max-width: 767px) {
+
+
+
+        .row-f {
+            @include display-flex-column;
+            
+           
+            .col-f .line {
+                display: none;
+            }
+
+            .col-f ul li {
+                color:$fifth-color;
+
+                a {
+                    color:$fifth-color;
+                }
+            }
+            
+        }
     
-    .col-f .line {
-        display: none;
-    }
+        .copyright {
+            color: $fifth-color;
+            
+        }
+
+    
 }
