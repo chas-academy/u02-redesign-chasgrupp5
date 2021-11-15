@@ -1,5 +1,4 @@
 header {
-  /*background-color: antiquewhite;*/
   padding: 30px;
 }
 
@@ -8,13 +7,11 @@ header {
   flex: 1;
   justify-content: space-between;
   margin: 30px;
-  /*background-color: aliceblue;*/
 }
 
 .header-container {
   @include display-flex-column;
   align-items: flex-end;
-
 }
 
 .header-container {
@@ -25,6 +22,7 @@ header {
 
 .nav-button {
   @include button;
+  margin: 20px;
 }
 
 .logo {
@@ -34,6 +32,7 @@ header {
 
 .nav-link {
   display: inline-block;
+  margin: 0 20px 15px;
 }
 
 form {
@@ -42,6 +41,7 @@ form {
   border: 1px solid $fifth-color;
   display: flex;
   align-items: center;
+  margin: 20px;
 }
 
 input {
