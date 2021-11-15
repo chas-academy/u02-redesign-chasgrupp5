@@ -22,12 +22,24 @@ header {
 
 .nav-button {
   @include button;
-  margin: 20px;
+  margin: $margin-header;
 }
 
 .logo {
   color: $third-color;
   line-height: 1.3;
+  margin-top: $margin-header;
+  margin-left: $margin-header;
+}
+
+.logo {
+  h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+  }
+  p {
+    font-size: 1.62rem;
+  }
 }
 
 .nav-link {
@@ -41,7 +53,7 @@ form {
   border: 1px solid $fifth-color;
   display: flex;
   align-items: center;
-  margin: 20px;
+  margin: $margin-header;
 }
 
 input {
