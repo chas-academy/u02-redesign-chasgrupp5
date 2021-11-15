@@ -251,14 +251,58 @@ footer {
   width: 80%;
 }
 
-.img-section {
-  background: url(Img/main-main-bild.jpg);
-  height: 572px;
+.flexbox-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 5rem;
+          column-gap: 5rem;
+}
+
+.flexbox-item {
+  width: 44rem;
+  margin: 10px;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.flexbox-item-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 100px;
+  width: 80%;
+  border-bottom: 1px solid #778DA9;
+  border-top: 1px solid #778DA9;
+  margin-top: 7rem;
+  padding-top: 2.2rem;
+  margin-left: 12rem;
+}
+
+.aside-img {
+  background: url(Img/main-main-bild.jpg) no-repeat;
+  height: 500px;
+  width: 100%;
   background-position: center;
   background-size: cover;
-  position: relative;
   margin-bottom: 182px;
   margin-top: 126px;
+  color: #415A77;
+}
+
+.aside-text {
+  margin-right: 40rem;
+  text-align: center;
+  padding-top: 13rem;
 }
 
 .imgcontainer {
@@ -276,4 +320,3 @@ footer {
   margin-top: 15px;
   text-align: center;
 }
-/*# sourceMappingURL=main.css.map */
