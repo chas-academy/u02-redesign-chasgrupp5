@@ -36,6 +36,10 @@ a {
   cursor: pointer;
 }
 
+.link {
+  text-decoration: underline;
+}
+
 .img-title {
   font-size: 2.25rem;
   font-weight: 300;
@@ -71,9 +75,14 @@ a {
 .aside-navbar {
   display: flex;
   flex-direction: column;
+  text-decoration: none;
 }
 .aside-navbar li {
   margin-bottom: 16px;
+}
+
+.nav-link a:hover {
+  font-weight: 500;
 }
 
 aside {
@@ -246,11 +255,6 @@ form button {
     color: #E0E1DD;
   }
 }
-form {
-  display: flex;
-  flex-direction: column;
-}
-
 .container {
   display: flex;
   justify-content: center;
@@ -260,9 +264,29 @@ form {
   max-width: 1200px;
 }
 
-.text-section-2 {
-  width: 100%;
-  max-width: 1200px;
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 5rem;
+}
+.flexbox-container .flexbox-item {
+  width: 44rem;
+  margin: 10px;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.flexbox-item-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-height: 100px;
+  width: 80%;
+  border-bottom: 1px solid #778DA9;
+  border-top: 1px solid #778DA9;
+  margin-top: 7rem;
+  padding-top: 2.2rem;
+  margin-left: 12rem;
 }
 
 .img-section {
@@ -335,4 +359,8 @@ form {
 .text-list {
   margin-top: 15px;
   margin-left: 40px;
+}
+
+figure {
+  margin-bottom: 15px;
 }/*# sourceMappingURL=main.css.map */
