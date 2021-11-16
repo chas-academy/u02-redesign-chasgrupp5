@@ -1,11 +1,17 @@
 .aside-navbar {
     display: flex;
     flex-direction: column;
+    text-decoration: none;
 
     li {
         margin-bottom: 16px;
     }
 
+}
+.nav-link {
+    a:hover {
+        font-weight: 500;
+    }
 }
 
 // Navigation undersidor
@@ -15,3 +21,4 @@ aside {
     border-right: 1px $third-color solid;
     margin-right: 100px;
 }
+

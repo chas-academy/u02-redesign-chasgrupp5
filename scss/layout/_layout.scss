@@ -10,9 +10,40 @@
   }
 }
 
-.text-section-2 {
-    width: 100%;
-    max-width: 1200px;
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 5rem;
+
+  .flexbox-item {
+    width: 44rem;
+    margin: 10px;
+  
+    padding: 2rem;
+    margin-top: 3rem;
+  }
+  
+}
+
+
+
+// .flexbox-item-1 {
+// }
+
+// .flexbox-item-2 {
+// }
+
+.flexbox-item-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-height: 100px;
+  width: 80%;
+  border-bottom: 1px solid $forth-color;
+  border-top: 1px solid $forth-color;
+  margin-top: 7rem;
+  padding-top: 2.2rem;
+  margin-left: 12rem;
 }
 
 .img-section {
