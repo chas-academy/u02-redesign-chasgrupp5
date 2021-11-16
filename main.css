@@ -89,6 +89,11 @@ a {
   margin-bottom: 16px;
 }
 
+.nav-link {
+  display: inline-block;
+  margin: 0 20px 15px;
+}
+
 .nav-link a:hover {
   font-weight: 500;
 }
@@ -163,62 +168,6 @@ header {
 
 .logo p {
   font-size: 1.62rem;
-}
-
-.nav-link {
-  display: inline-block;
-  margin: 0 20px 15px;
-}
-
-.search-bar {
-  width: 350px;
-  height: 44px;
-  border: 1px solid #E0E1DD;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 20px;
-}
-
-#site-search {
-  all: unset;
-  height: 100%;
-  width: 100%;
-  padding: 10px;
-}
-
-::-webkit-input-placeholder {
-  color: #415A77;
-  opacity: 0.7;
-}
-
-:-ms-input-placeholder {
-  color: #415A77;
-  opacity: 0.7;
-}
-
-::-ms-input-placeholder {
-  color: #415A77;
-  opacity: 0.7;
-}
-
-::placeholder {
-  color: #415A77;
-  opacity: 0.7;
-}
-
-.visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
 }
 
 .footer-container {
@@ -297,6 +246,66 @@ header {
   .copyright {
     color: #E0E1DD;
   }
+}
+
+.search-bar {
+  width: 350px;
+  height: 44px;
+  border: 1px solid #E0E1DD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+}
+
+#site-search {
+  all: unset;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+::-webkit-input-placeholder {
+  color: #415A77;
+  opacity: 0.7;
+}
+
+:-ms-input-placeholder {
+  color: #415A77;
+  opacity: 0.7;
+}
+
+::-ms-input-placeholder {
+  color: #415A77;
+  opacity: 0.7;
+}
+
+::placeholder {
+  color: #415A77;
+  opacity: 0.7;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+textarea {
+  height: 60px;
+}
+
+input, textarea {
+  all: unset;
+  border: 1px solid #778DA9;
 }
 
 .container {
