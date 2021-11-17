@@ -56,6 +56,10 @@ a {
   color: #415A77;
 }
 
+.flexbox-item-3 {
+  font-weight: 500;
+}
+
 .title {
   margin-bottom: 25px;
 }
