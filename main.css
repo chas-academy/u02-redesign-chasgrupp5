@@ -307,6 +307,7 @@ input, textarea {
 .imgcontainer figcaption {
   margin-top: 15px;
   text-align: center;
+  font-weight: 500;
 }
 
 .form-button {
