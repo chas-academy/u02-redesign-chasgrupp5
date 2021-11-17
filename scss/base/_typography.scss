@@ -16,7 +16,7 @@ h3 {
     font-size: 1.25rem;
 }
 
-p, a {
+p, a, .marg {
     font-size: 1.12rem;
 }
 
@@ -42,6 +42,10 @@ a {
     color: $third-color;
 }
 
+.flexbox-item-3 {
+    font-weight: 500;
+}
+
 // Undersidorna 
 
 .title {
@@ -59,6 +63,13 @@ a {
     ul {
         margin-right: 20px;
     }
+}
+
+.marg {
+    margin-bottom: 15px;
+    margin-top: 100px;
+    font-weight: 500;
+    margin-left: 22px;
 }
 
 

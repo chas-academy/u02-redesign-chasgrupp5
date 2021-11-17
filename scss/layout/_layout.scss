@@ -41,10 +41,10 @@
   border-bottom: 1px solid $forth-color;
   border-top: 1px solid $forth-color;
   margin-top: 7rem;
-  padding-top: 2.2rem;
+  padding-top: 2.2rem;  
 }
 
-.img-section {
+.head-section {
   background: url(Img/main-main-bild.jpg);
   height: 572px;
   background-position: center;
@@ -72,5 +72,6 @@
   figcaption {
     margin-top: 15px;
     text-align: center;
+    font-weight: 500;
   }
 }
