@@ -37,7 +37,7 @@ header {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $mobile-screen) {
   header {
     background-color: $third-color;
   }
