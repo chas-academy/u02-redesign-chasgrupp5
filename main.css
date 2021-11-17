@@ -380,8 +380,8 @@ input, textarea {
   min-height: 100px;
   border-bottom: 1px solid #778DA9;
   border-top: 1px solid #778DA9;
-  margin-top: 7rem;
   padding-top: 2.2rem;
+  margin-bottom: 5rem;
 }
 
 .head-section {
@@ -390,8 +390,13 @@ input, textarea {
   background-position: center;
   background-size: cover;
   position: relative;
+<<<<<<< HEAD
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+=======
   margin-bottom: 182px;
   margin-top: 126px;
+>>>>>>> 324eb7017e3ebd437f533f1a03ad730ab45ce7ad
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -431,25 +436,24 @@ input, textarea {
 }
 
 .form-button {
-  background-color: #778DA9;
+  background-color: #1B263B;
   cursor: pointer;
   color: white;
   border: none;
   border-radius: 10px;
   padding: 5px 25px;
-  -webkit-box-shadow: 0 8px 6px -5px #778DA9;
-          box-shadow: 0 8px 6px -5px #778DA9;
+  box-shadow: 0 8px 6px -5px #1B263B;
+
 }
 
 .nav-button {
-  background-color: #778DA9;
+  background-color: #1B263B;
   cursor: pointer;
   color: white;
   border: none;
   border-radius: 10px;
   padding: 5px 25px;
-  -webkit-box-shadow: 0 8px 6px -5px #778DA9;
-          box-shadow: 0 8px 6px -5px #778DA9;
+  box-shadow: 0 8px 6px -5px #1B263B;
   margin: 20px;
 }
 
