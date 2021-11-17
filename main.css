@@ -436,25 +436,24 @@ input, textarea {
 }
 
 .form-button {
-  background-color: #778DA9;
+  background-color: #1B263B;
   cursor: pointer;
   color: white;
   border: none;
   border-radius: 10px;
   padding: 5px 25px;
-  -webkit-box-shadow: 0 8px 6px -5px #778DA9;
-          box-shadow: 0 8px 6px -5px #778DA9;
+  box-shadow: 0 8px 6px -5px #1B263B;
+
 }
 
 .nav-button {
-  background-color: #778DA9;
+  background-color: #1B263B;
   cursor: pointer;
   color: white;
   border: none;
   border-radius: 10px;
   padding: 5px 25px;
-  -webkit-box-shadow: 0 8px 6px -5px #778DA9;
-          box-shadow: 0 8px 6px -5px #778DA9;
+  box-shadow: 0 8px 6px -5px #1B263B;
   margin: 20px;
 }
 
