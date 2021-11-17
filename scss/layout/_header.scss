@@ -36,3 +36,18 @@ header {
     font-size: 1.62rem;
   }
 }
+
+@media (max-width: 767px) {
+  header {
+    background-color: $third-color;
+  }
+  .logo {
+    h2, p
+     {
+    color: white;
+    }
+  }
+  .header-container {
+    display: none;
+  }
+}
