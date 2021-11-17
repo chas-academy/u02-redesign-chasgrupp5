@@ -32,7 +32,6 @@
 
 // .flexbox-item-2 {
 // }
-
 .flexbox-item-3 {
   display: flex;
   flex-direction: row;
@@ -40,18 +39,17 @@
   min-height: 100px;
   border-bottom: 1px solid $forth-color;
   border-top: 1px solid $forth-color;
-  margin-top: 7rem;
-  padding-top: 2.2rem;  
+  padding-top: 2.2rem;
+  margin-bottom: 5rem;
 }
-
 .head-section {
   background: url(Img/main-main-bild.jpg);
   height: 572px;
   background-position: center;
   background-size: cover;
   position: relative;
-  margin-bottom: 182px;
-  margin-top: 126px;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
   display: flex;
   align-items: center;
 
