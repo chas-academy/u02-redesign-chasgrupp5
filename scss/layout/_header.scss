@@ -37,7 +37,21 @@ header {
   }
 }
 
-@media (max-width: 767px) {
+.mobile-menu {
+  i {
+  color: white;
+  font-size: 50px;
+  margin-top: $margin-header;
+  }
+}
+
+@media (min-width: $tablet-screen) {
+.mobile-menu {
+  display: none;
+  }
+}
+
+@media (max-width: $tablet-screen) {
   header {
     background-color: $third-color;
   }
