@@ -9,6 +9,10 @@ img {
   width: 100%;
 }
 
+.hot-img {
+  width: 80%;
+}
+
 * {
   font-family: 'Poppins';
 }
