@@ -63,8 +63,9 @@ header {
     display: none;
   }
 }
+
 @media screen and (max-width: $tablet-screen) {
-  .mobile-menu > section {
+  .resp {
     position: absolute;
     top: 0px;
     width: 100%;
@@ -75,7 +76,13 @@ header {
     padding-top: 200px;
   }
 
-  .mobile-menu > nav {
+  .mobile-menu:hover {
+    .resp {
+      display: block;
+    }
+  }
+
+  .resp > nav {
     background: $third-color;
     padding: 40px;
   }
