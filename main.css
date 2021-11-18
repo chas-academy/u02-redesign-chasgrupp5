@@ -129,6 +129,12 @@ aside {
   margin-right: 100px;
 }
 
+@media screen and (max-width: 1075px) {
+  aside {
+    display: none;
+  }
+}
+
 header {
   padding: 30px;
 }
@@ -195,7 +201,10 @@ header {
     background-color: #415A77;
   }
 
+  .logo h2,
+  .logo p {
   .logo h2, .logo p {
+
     color: white;
   }
 
@@ -464,6 +473,12 @@ input, textarea {
 
 .sides {
   margin-bottom: 89px;
+}
+
+@media screen and (max-width: 1075px) {
+  .sides {
+    margin-top: 6rem;
+  }
 }
 
 .box img {
