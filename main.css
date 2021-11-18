@@ -204,7 +204,7 @@ header {
   }
 }
 @media screen and (max-width: 1000px) {
-  .mobile-menu > section {
+  .resp {
     position: absolute;
     top: 0px;
     width: 100%;
@@ -215,7 +215,11 @@ header {
     padding-top: 200px;
   }
 
-  .mobile-menu > nav {
+  .mobile-menu:hover .resp {
+    display: block;
+  }
+
+  .resp > nav {
     background: #415A77;
     padding: 40px;
   }
@@ -329,7 +333,7 @@ input, textarea {
   width: 100%;
   max-width: 1200px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
   .container .wrapper {
     width: 90%;
   }
@@ -351,7 +355,7 @@ input, textarea {
   padding-top: 2.2rem;
   margin-bottom: 5rem;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
   .flexbox-item {
     display: none;
   }
@@ -367,7 +371,7 @@ input, textarea {
   display: flex;
   align-items: center;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
   .head-section {
     margin: unset;
     background: none;
@@ -389,7 +393,8 @@ input, textarea {
 }
 @media screen and (max-width: 767px) {
   .imgcontainer {
-    display: contents;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 .imgcontainer figcaption {
