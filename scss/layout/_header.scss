@@ -2,7 +2,7 @@ header {
   padding: 30px;
 }
 
- .header-wrapper {
+.header-wrapper {
   display: flex;
   flex: 1;
   justify-content: space-between;
@@ -20,8 +20,8 @@ header {
 
 .header-container {
   a {
-  @include navigation-links;
-}
+    @include navigation-links;
+  }
 }
 
 .logo {
@@ -37,15 +37,15 @@ header {
 
 .mobile-menu {
   i {
-  color: white;
-  font-size: 50px;
-  margin-top: $margin-header;
+    color: white;
+    font-size: 50px;
+    margin-top: $margin-header;
   }
 }
 
 @media (min-width: $tablet-screen) {
-.mobile-menu {
-  display: none;
+  .mobile-menu {
+    display: none;
   }
 }
 
@@ -54,9 +54,9 @@ header {
     background-color: $third-color;
   }
   .logo {
-    h2, p
-     {
-    color: white;
+    h2,
+    p {
+      color: white;
     }
   }
   .header-container {
@@ -86,4 +86,4 @@ header {
     background: $third-color;
     padding: 40px;
   }
-} 
+}
