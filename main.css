@@ -215,7 +215,7 @@ header {
     padding-top: 200px;
   }
 
-  .mobile-menu:hover .resp {
+  .mobile-menu:hover .resp, .mobile-menu:active .resp {
     display: block;
   }
 
@@ -367,7 +367,7 @@ input, textarea {
   background-position: center;
   background-size: cover;
   position: relative;
-  margin: 5rem 0rem;
+  margin-bottom: 5rem;
   display: flex;
   align-items: center;
 }

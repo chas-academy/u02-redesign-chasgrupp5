@@ -76,7 +76,7 @@ header {
     padding-top: 200px;
   }
 
-  .mobile-menu:hover {
+  .mobile-menu:hover, .mobile-menu:active {
     .resp {
       display: block;
     }
