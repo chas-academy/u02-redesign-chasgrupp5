@@ -7,7 +7,7 @@
     width: 100%;
     max-width: 1200px;
 
-    @media screen and (max-width: $mobile-screen) {
+    @media screen and (max-width: $tablet-screen) {
       width: 90%;
     }
   }
@@ -29,7 +29,7 @@
   padding-top: 2.2rem;
   margin-bottom: 5rem;
 
-  @media screen and (max-width: $mobile-screen) {
+  @media screen and (max-width: $tablet-screen) {
     display: none;
   }
 }
@@ -50,6 +50,7 @@
   }
 
   @media screen and (max-width: $mobile-screen) {
+  @media screen and (max-width: $tablet-screen) {
     margin: unset;
     background: none;
     height: 500px;

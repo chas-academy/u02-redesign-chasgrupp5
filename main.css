@@ -216,13 +216,14 @@ header {
   margin-top: 20px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1075px) {
   .mobile-menu {
     display: none;
   }
 }
 
 @media (max-width: 1000px) {
+@media (max-width: 1075px) {
   header {
     background-color: #415A77;
   }
@@ -236,6 +237,8 @@ header {
 
 @media screen and (max-width: 1000px) {
   .mobile-menu > section {
+@media screen and (max-width: 1075px) {
+  .resp {
     position: absolute;
     top: 0px;
     width: 100%;
@@ -246,6 +249,11 @@ header {
     padding-top: 200px;
   }
   .mobile-menu > nav {
+  .mobile-menu:hover .resp {
+    display: block;
+  }
+
+  .resp > nav {
     background: #415A77;
     padding: 40px;
   }
@@ -402,8 +410,8 @@ input, textarea {
   width: 100%;
   max-width: 1200px;
 }
-
 @media screen and (max-width: 767px) {
+@media screen and (max-width: 1075px) {
   .container .wrapper {
     width: 90%;
   }
@@ -438,6 +446,7 @@ input, textarea {
 }
 
 @media screen and (max-width: 767px) {
+@media screen and (max-width: 1075px) { main
   .flexbox-item {
     display: none;
   }
@@ -464,6 +473,9 @@ input, textarea {
 }
 
 @media screen and (max-width: 767px) {
+
+@media screen and (max-width: 1075px) {
+main
   .head-section {
     margin: unset;
     background: none;
