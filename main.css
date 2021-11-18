@@ -393,8 +393,7 @@ input, textarea {
 }
 @media screen and (max-width: 767px) {
   .imgcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: contents;
   }
 }
 .imgcontainer figcaption {
