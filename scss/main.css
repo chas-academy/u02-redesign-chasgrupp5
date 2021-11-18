@@ -135,27 +135,10 @@ a {
   font-weight: 500;
 }
 
-@media screen and (max-width: 1075px) {
-  .navbar {
-    display: flex;
-    flex-direction: column;
-  }
-}
 aside {
   width: 90%;
   border-right: 1px #415A77 solid;
   margin-right: 100px;
-}
-@media screen and (max-width: 1075px) {
-  aside {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1075px) {
-  aside {
-    display: none;
-  }
 }
 
 header {
@@ -233,13 +216,13 @@ header {
   margin-top: 20px;
 }
 
-@media (min-width: 1075px) {
+@media (min-width: 1000px) {
   .mobile-menu {
     display: none;
   }
 }
 
-@media (max-width: 1075px) {
+@media (max-width: 1000px) {
   header {
     background-color: #415A77;
   }
@@ -251,8 +234,8 @@ header {
   }
 }
 
-@media screen and (max-width: 1075px) {
-  .resp {
+@media screen and (max-width: 1000px) {
+  .mobile-menu > section {
     position: absolute;
     top: 0px;
     width: 100%;
@@ -260,12 +243,9 @@ header {
     color: #fff;
     z-index: 1000000;
     display: none;
-    padding-top: 185px;
+    padding-top: 200px;
   }
-  .mobile-menu:hover .resp, .mobile-menu:active .resp {
-    display: block;
-  }
-  .resp > nav {
+  .mobile-menu > nav {
     background: #415A77;
     padding: 40px;
   }
@@ -423,7 +403,7 @@ input, textarea {
   max-width: 1200px;
 }
 
-@media screen and (max-width: 1075px) {
+@media screen and (max-width: 767px) {
   .container .wrapper {
     width: 90%;
   }
@@ -457,7 +437,7 @@ input, textarea {
   margin-bottom: 5rem;
 }
 
-@media screen and (max-width: 1075px) {
+@media screen and (max-width: 767px) {
   .flexbox-item {
     display: none;
   }
@@ -469,7 +449,7 @@ input, textarea {
   background-position: center;
   background-size: cover;
   position: relative;
-  margin-bottom: 5rem;
+  margin: 5rem 0rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -478,22 +458,11 @@ input, textarea {
           align-items: center;
 }
 
-@media screen and (max-width: 1075px) {
+@media screen and (max-width: 767px) {
   .head-section {
     margin: unset;
     background: none;
     height: 500px;
-  }
-}
-
-.head-section .headertext {
-  text-align: left;
-  width: 40vh;
-}
-
-@media screen and (max-width: 1075px) {
-  .head-section .headertext {
-    width: 90%;
   }
 }
 
