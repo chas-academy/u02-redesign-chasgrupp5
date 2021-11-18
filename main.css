@@ -371,15 +371,20 @@ input, textarea {
   display: flex;
   align-items: center;
 }
-.head-section .headertext {
-  text-align: left;
-  width: 40vh;
-}
 @media screen and (max-width: 1075px) {
   .head-section {
     margin: unset;
     background: none;
     height: 500px;
+  }
+}
+.head-section .headertext {
+  text-align: left;
+  width: 40vh;
+}
+@media screen and (max-width: 1075px) {
+  .head-section .headertext {
+    width: 90%;
   }
 }
 .head-section--inner {
