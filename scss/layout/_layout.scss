@@ -44,23 +44,17 @@
   display: flex;
   align-items: center;
 
-  .headertext {
-    text-align: left;
-    width: 50vh;
-  }
-
-  @media screen and (max-width: $mobile-screen) {
   @media screen and (max-width: $tablet-screen) {
     margin: unset;
     background: none;
     height: 500px;
   }
 
-  &--inner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+    &--inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
 }
 
 .imgcontainer {
@@ -78,9 +72,9 @@
     margin-top: 15px;
     text-align: center;
     font-weight: 500;
-
-    @media screen and (max-width: $mobile-screen) {
-      margin-bottom: 75px;
-    }
+  
+  @media screen and (max-width: $mobile-screen) {
+    margin-bottom: 75px;
+  }
   }
 }
