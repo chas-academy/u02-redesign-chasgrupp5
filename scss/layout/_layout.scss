@@ -64,18 +64,17 @@
   row-gap: 110px;
   margin-bottom: 200px;
 
-    @media screen and (max-width: $mobile-screen) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    }
+  @media screen and (max-width: $mobile-screen) {
+    display: contents;
+  }
 
   figcaption {
     margin-top: 15px;
     text-align: center;
     font-weight: 500;
   
-    @media screen and (max-width: $mobile-screen) {
-      margin-bottom: 75px;
-    }
+  @media screen and (max-width: $mobile-screen) {
+    margin-bottom: 75px;
+  }
   }
 }
