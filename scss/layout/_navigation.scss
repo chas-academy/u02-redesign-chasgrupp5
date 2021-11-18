@@ -16,6 +16,15 @@
     }
 }
 
+@media screen and (max-width: $tablet-screen) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
 // Navigation undersidor
 
 aside {

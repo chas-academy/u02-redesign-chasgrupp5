@@ -40,6 +40,11 @@ a {
   color: black;
   cursor: pointer;
 }
+@media screen and (max-width: 1075px) {
+  a .nav-bar > a {
+    color: #E0E1DD;
+  }
+}
 
 .logo h2 {
   font-size: 2.25rem;
@@ -135,10 +140,21 @@ a {
   font-weight: 500;
 }
 
+@media screen and (max-width: 1075px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+}
 aside {
   width: 90%;
   border-right: 1px #415A77 solid;
   margin-right: 100px;
+}
+@media screen and (max-width: 1075px) {
+  aside {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1075px) {
