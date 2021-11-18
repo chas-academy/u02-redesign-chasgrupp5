@@ -22,5 +22,9 @@ aside {
     width: 90%;
     border-right: 1px $third-color solid;
     margin-right: 100px;
+
+    @media screen and (max-width: $tablet-screen) {
+        display: none;
+    }
 }
 
