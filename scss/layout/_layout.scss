@@ -40,20 +40,28 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  margin: 5rem 0rem;
+  margin-bottom: 5rem;
   display: flex;
   align-items: center;
-
-  .headertext {
-    text-align: left;
-    width: 50vh;
-  }
 
   @media screen and (max-width: $tablet-screen) {
     margin: unset;
     background: none;
     height: 500px;
+
   }
+
+  .headertext {
+    text-align: left;
+    width: 40vh;
+
+    @media screen and (max-width: $tablet-screen) {
+    width: 90%;
+    }
+  }
+
+  
+
 
   &--inner {
     display: flex;
