@@ -7,14 +7,9 @@
     width: 100%;
     max-width: 1200px;
 
-  }
-
-  @media (max-width: $mobile-screen) {
-    .wrapper {
+    @media screen and (max-width: $mobile-screen) {
       width: 90%;
-      max-width: 800px;
     }
-    
   }
 }
 
@@ -22,25 +17,9 @@
   display: flex;
   justify-content: center;
   column-gap: 5rem;
-
-  .flexbox-item {
-    width: 44rem;
-    margin: 10px;
-  
-    padding: 2rem;
-    margin-top: 3rem;
-  }
-  
 }
 
-
-
-// .flexbox-item-1 {
-// }
-
-// .flexbox-item-2 {
-// }
-.flexbox-item-3 {
+.flexbox-item {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -49,6 +28,10 @@
   border-top: 1px solid $forth-color;
   padding-top: 2.2rem;
   margin-bottom: 5rem;
+
+  @media screen and (max-width: $mobile-screen) {
+    display: none;
+  }
 }
 
 .head-section {
@@ -57,22 +40,21 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  margin-bottom: 5rem;
-  margin-top: 5rem;
+  margin: 5rem 0rem;
   display: flex;
   align-items: center;
 
-  &--inner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  @media screen and (max-width: $mobile-screen) {
+    margin: unset;
+    background: none;
+    height: 500px;
   }
 
-  @media (max-width: $mobile-screen) {
-    .head-section {
-    margin-top: unset;
+    &--inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
-  }
 }
 
 .imgcontainer {
@@ -82,9 +64,17 @@
   row-gap: 110px;
   margin-bottom: 200px;
 
+  @media screen and (max-width: $mobile-screen) {
+    display: contents;
+  }
+
   figcaption {
     margin-top: 15px;
     text-align: center;
     font-weight: 500;
+  
+  @media screen and (max-width: $mobile-screen) {
+    margin-bottom: 75px;
+  }
   }
 }
