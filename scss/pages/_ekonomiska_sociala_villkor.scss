@@ -19,6 +19,10 @@
 
 .sides {
     margin-bottom: 89px;
+
+    @media screen and (max-width: $tablet-screen) {
+        margin-top: 40px;
+    }
 }
 
 .box img {
