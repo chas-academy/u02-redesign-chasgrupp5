@@ -39,6 +39,11 @@ a {
   color: black;
   cursor: pointer;
 }
+@media screen and (max-width: 1075px) {
+  a .nav-bar > a {
+    color: #E0E1DD;
+  }
+}
 
 .logo h2 {
   font-size: 2.25rem;
