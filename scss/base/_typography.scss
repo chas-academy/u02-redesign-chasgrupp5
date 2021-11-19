@@ -33,6 +33,8 @@ h2 {
 
 h3 {
     font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 p, a, .marg {
@@ -43,6 +45,7 @@ a {
     text-decoration: none;
     color: black;
     cursor: pointer;
+
 }
 
 @media screen and (max-width: $tablet-screen) {
@@ -99,7 +102,7 @@ a {
 }
 
 .title {
-    margin-bottom: 25px;
+    margin-top: 25px;
 
     @media screen and (max-width: $mobile-screen) {
         font-size: 1.55rem;
