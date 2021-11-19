@@ -5,6 +5,11 @@
 h1 {
     font-size: 2.25rem;
     font-weight: 300;
+
+    @media screen and (max-width: $mobile-screen) {
+        font-size: 1.8rem;
+        color: white;
+    }
 }
 
 h2 {
