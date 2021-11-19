@@ -5,6 +5,10 @@
 .col-2 {
     margin-bottom: 200px;
 
+    @media screen and (max-width: $tablet-screen){
+        max-width: 100%;
+    }
+
     .line {
         border: 1px $third-color solid;
         width: 100%;
