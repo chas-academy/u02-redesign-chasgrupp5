@@ -10,6 +10,11 @@ h1 {
 h2 {
     font-size: 1.62rem;
     font-weight: 300;
+
+    @media screen and (max-width: $mobile-screen) {
+        margin-bottom: 15px;
+        font-size: 1.25rem;
+    }
 }
 
 h3 {
@@ -86,6 +91,16 @@ a {
 .subtitle {
     font-weight: 600;
     margin-top: 15px;
+}
+
+.subtitle-2, .subtitle-3 {
+    display: none;
+
+    @media screen and (max-width: $tablet-screen) {
+        display: flex;
+        margin-top: 15px;
+        font-weight: 600;
+    }
 }
 
 .text-field {
