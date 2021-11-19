@@ -86,6 +86,10 @@ a {
 
 .title {
     margin-bottom: 25px;
+
+    @media screen and (max-width: $mobile-screen) {
+        font-size: 1.55rem;
+    }
 }
 
 .subtitle {
