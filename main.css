@@ -390,6 +390,43 @@ input, textarea {
   border: 1px solid #778DA9;
 }
 
+.contact-form {
+  margin-bottom: 40px;
+}
+
+.contact-form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-form ul li {
+  margin-top: 1em;
+}
+
+.contact-form label {
+  display: inline-block;
+  width: 160px;
+  text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+  .contact-form label {
+    text-align: unset;
+  }
+}
+
+.contact-form input, .contact-form textarea {
+  width: 300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contact-form textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -567,6 +604,8 @@ figure {
   margin-bottom: 15px;
 }
 
+/*# sourceMappingURL=main.css.map */
+
 .contact-form {
   margin-top: 30px;
 }
@@ -595,3 +634,4 @@ figure {
 .contact-form textarea {
   vertical-align: top;
 }/*# sourceMappingURL=main.css.map */
+

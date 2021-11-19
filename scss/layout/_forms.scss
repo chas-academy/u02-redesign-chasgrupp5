@@ -38,3 +38,33 @@ input, textarea {
     all: unset;
     border: 1px solid $forth-color;
 }
+
+.contact-form {
+    margin-bottom: 40px;
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+            margin-top: 1em;
+        }
+    }
+    label {
+        display: inline-block;
+        width: 160px;
+        text-align: right;
+
+        @media screen and (max-width: $mobile-screen) {
+            text-align: unset;
+        }
+    }
+
+    input, textarea {
+        width: 300px;
+        box-sizing: border-box;
+    }
+    textarea {
+        vertical-align: top;
+        height: 200px;
+    }
+}
